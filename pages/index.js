@@ -23,7 +23,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a
-            href="http://localhost:3000/weather/Albuquerque"
+            href="http://localhost:3000/weather/2624886"
             className={styles.card}
           >
             <h2>Weather app &rarr;</h2>
