@@ -6,8 +6,14 @@ const WeatherWidget = ({ cityName, coordinates }) => {
     <div className={styles.container}>
       <h1>{cityName}</h1>
       <div className="coordinates">
-        <div className="latitude">{lat}</div>
-        <div className="longitude">{long}</div>
+        <div className="latitude">
+          <strong>lat: </strong>
+          {lat}
+        </div>
+        <div className="longitude">
+          <strong>long: </strong>
+          {long}
+        </div>
       </div>
     </div>
   );

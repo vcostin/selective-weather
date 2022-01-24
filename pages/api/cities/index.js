@@ -6,6 +6,6 @@ export default function handler(req, res) {
     cities
       .map(({ name, cityId }) => ({ value: cityId, label: name }))
       .sort((a, b) => naturalCompare(a.label, b.label))
-      .slice(0, 100)
+      .slice(0, 50)
   );
 }
