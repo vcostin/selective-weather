@@ -5,8 +5,9 @@
   transform: translate(-50%, -50%);
   width: 400px;
 
-  padding: 40px;
+  padding: 20px;
   background-color: #f1c40f;
   border-radius: 20px;
   display: flex;
+  flex-direction: column;
 }

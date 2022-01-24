@@ -48,7 +48,7 @@ export default function Weather() {
             //autoFocus
             //hasValue={true}
           />
-          <WeatherWidget cityName={cityData.name} />
+          <WeatherWidget cityName={cityData.name} coordinates={cityData.loc.coordinates} />
         </>
       )}
     </div>
